@@ -6,5 +6,7 @@ namespace Pastelaria.Context
         {
 
         }
+
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

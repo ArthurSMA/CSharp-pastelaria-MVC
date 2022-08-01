@@ -1,12 +1,13 @@
-global using System.Diagnostics;
 global using Microsoft.AspNetCore.Mvc;
-global using Pastelaria.Mvc.Models;
 global using Pastelaria.Core.Settings;
 global using Microsoft.AspNetCore.Builder;
-global using Microsoft.AspNetCore.Diagnostics;
 global using Microsoft.Extensions.Configuration;
 global using Microsoft.Extensions.DependencyInjection;
-global using Microsoft.Extensions.Hosting;
 global using Pastelaria.Context;
 global using Pastelaria.Core.Helpers;
 global using Pastelaria.Mvc.Configurations;
+global using System.Threading.Tasks;
+global using Pastelaria.Mvc.ViewModels;
+global using Pastelaria.Core.Models;
+global using Pastelaria.Core.Configurations;
+global using Pastelaria.Core.Interfaces;

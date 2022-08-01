@@ -1,10 +1,10 @@
-﻿global using Microsoft.EntityFrameworkCore;
+﻿global using System.Reflection;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Storage;
 global using Pastelaria.Data;
-global using System.Reflection;
+global using Pastelaria.Data.Repositories.Base;
 global using Pastelaria.Context;
 global using Pastelaria.Core.Interfaces;
 global using Pastelaria.Core.Models;
 global using Pastelaria.Core.Settings;
 global using Pastelaria.Core.Interfaces.Base;
-global using Pastelaria.Data.Repositories.Base;
-global using Microsoft.EntityFrameworkCore.Storage;
