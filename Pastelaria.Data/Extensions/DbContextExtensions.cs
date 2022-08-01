@@ -1,7 +1,7 @@
-namespace Pastelaria.Data.Extensions
+namespace Krita.Data.Extensions
 {
-    public class DbContextExtensions
+    public static class DbContextExtensions
     {
-        
+
     }
 }
