@@ -2,7 +2,32 @@
     ViewData["Title"] = "Tarefas";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container-tarefas">
+    <h1>Consulta Tarefa</h1>
+    <div class="container-buscar-tarefa">
+        <form id="form-busca-tarefa" class="form-busca-tarefa" onsubmit="tarefa.buscar(); return false">
+            <div class="container-busca-inputs">
+                <div class="container-campos-tarefa">
+                    <label class="label-busca-tarefa">Código da Tarefa</label>
+                    <input id="id-tarefa" class="uk-input input-busca-tarefa opcoes-busca-form opcoes-busca-tarefas"
+                        placeholder="Código do tarefa" name="id" type="number" />
+                    <span id="spanId" class="uk-text-danger"></span>
+                </div>
+                <div class="container-botao-busca">
+                    <button type="submit"
+                        class="uk-button uk-button-default botao-busca-tarefa opcoes-busca-form"><span
+                        class="icone-botao" uk-icon="icon: search"></span></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="container-resultados-busca">
+    <div class="container-escolha-resultado">
+        <button class="uk-button escolha-resultado-pesquisa" id="BotaoResultadoBusca" name="ResultadoBusca"
+            value="ResultadoPesquisa" onclick="usuario.resultadosBusca()">RESULTADOS DA PESQUISA</button>
+    </div>
+    <div class="container-scrollbar-resultados">
+        <div id="ResultadoPesquisa"></div>
+    </div>
 </div>

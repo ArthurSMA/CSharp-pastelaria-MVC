@@ -6,9 +6,10 @@ namespace Pastelaria.Mvc.Controllers
         private readonly IUsuarioRepository _usuarioRepository;
         private readonly Notification _notification;
 
-        public UsuarioController(AppSettings appSettings,
-        IUsuarioRepository usuarioRepository,
-        Notification notification
+        public UsuarioController(
+            AppSettings appSettings,
+            IUsuarioRepository usuarioRepository,
+            Notification notification
         )
         {
             _usuarioRepository = usuarioRepository;

@@ -11,3 +11,5 @@ global using Pastelaria.Mvc.ViewModels;
 global using Pastelaria.Core.Models;
 global using Pastelaria.Core.Configurations;
 global using Pastelaria.Core.Interfaces;
+global using Microsoft.AspNetCore.Http;
+global using Pastelaria.Mvc.ViewModels.Tarefa;
